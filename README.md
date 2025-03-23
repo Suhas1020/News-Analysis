@@ -109,6 +109,20 @@ A comprehensive news analysis tool that fetches, analyzes, and presents news art
 
 The application is deployed on Hugging Face Spaces. Visit https://huggingface.co/spaces/Suhas125/News-analysis to try it out.
 
+Model Details
+Summarization Model:
+Model Used: The application utilizes the transformers library to load a pre-trained model for summarization. Common models for summarization include BART, T5, or Pegasus.
+Purpose: The summarization model condenses news articles into shorter, more digestible summaries while retaining the main points and context.
+Integration: The model is accessed via the pipeline function from the transformers library, which simplifies the process of loading and using the model for inference.
+Sentiment Analysis Model:
+Model Used: The application uses the cardiffnlp/twitter-roberta-base-sentiment model from the Hugging Face Model Hub, which is specifically fine-tuned for sentiment analysis on social media text.
+Purpose: This model classifies the sentiment of news articles into categories such as positive, negative, or neutral.
+Integration: The model is integrated using the pipeline function from the transformers library, allowing for easy sentiment classification of article content.
+Text-to-Speech (TTS) Model:
+Model Used: The application uses the gTTS (Google Text-to-Speech) library for converting text summaries into spoken audio.
+Purpose: This feature allows users to listen to the summaries of news articles, enhancing accessibility and user experience.
+Integration: The gTTS library is used to generate audio files from text, which can then be played back to users.
+
 ## Contributing
 
 1. Fork the repository
