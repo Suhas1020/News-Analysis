@@ -107,7 +107,7 @@ A comprehensive news analysis tool that fetches, analyzes, and presents news art
 
 ## Deployment
 
-The application is deployed on Hugging Face Spaces. Visit [project-url] to try it out.
+The application is deployed on Hugging Face Spaces. Visit https://huggingface.co/spaces/Suhas125/News-analysis to try it out.
 
 ## Contributing
 
